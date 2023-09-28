@@ -3575,7 +3575,7 @@ function convertTime(time) {
 // Weather API
 
 let weather = {
-  apiKey: "ad6cb98b175162889fd70d06073d1f3f",
+  apiKey: "",
   fetchWeather: function (city) {
     fetch(
       "https://api.openweathermap.org/data/2.5/weather?q=" +
